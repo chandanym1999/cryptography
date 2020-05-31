@@ -1,0 +1,38 @@
+<!doctype html>
+
+
+<head><title>Test</title>
+<style> 
+	.myDiv {
+  border: 5px outset red;
+  width: 70px;
+  height: 200px;
+  background-color: lightblue;
+  text-align: center;
+  margin-left: 650px;
+}
+form,button, div {
+	margin-left: 650px;
+
+}
+form {
+	margin-top: 80px;
+}
+
+</style>
+    <meta charset=utf-8> </head>
+    <body>
+        <h1 style="text-align: center;">VOICE ENCRYPTION AND DECRYPTION</h1>
+        <P>SAY SOMETHING ON CLICKING SENDER</P>
+        <form action="/my-link/">
+            <input type="submit" value="SENDER" />
+        </form>
+        <p>SENDER MESSAGE:  {{text}}</p>
+        <button class="myDiv"> <a href="/y-link/{{text}}">network</a></button>
+        
+        <p>NETWORK:  {{text1}}</p>
+        <button> <a href="/m-link/{{text1}}">RECEIVER</a></button>
+        <br>
+        <br>
+        <p>RECEIVER MESSAGE:   {{text2}}</p>
+    </body>
